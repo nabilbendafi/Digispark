@@ -31,5 +31,5 @@ $(TARGET).hex: $(TARGET).elf
 	$(CC) $(CFLAGS) $(OPTIMISE) -c $< -o $@
  
 %.o: %.S
-	@echo Assembling $&lt;
-	@$(CXX) $(CFLAGS) $(OPTIMISE) -c $&lt; -o $@
+	@echo Assembling $<
+	@$(CC) $(CFLAGS) $(OPTIMISE) -c $< -o $@
