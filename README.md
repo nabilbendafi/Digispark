@@ -4,6 +4,12 @@ Digispark (ATtiny85) Sample code
 Collection of projects for Digispark (ATtiny85), to be used for educational purpose.
 
 - [Blink](https://github.com/nabilbendafi/Digispark/tree/master/blink)
+- [Windows Lock](https://github.com/nabilbendafi/Digispark/tree/master/windows_lock)
+
+Schematic
+---------
+
+[Digispark schematic](https://s3.amazonaws.com/digispark/DigisparkSchematicFinal.pdf)
 
 Compilation
 -----------
@@ -18,6 +24,6 @@ make
 Upload
 ------
 
-After compilation, [micronucleus](https://github.com/Bluebie/micronucleus) to upload .hex to Digispark
+After compilation, use [micronucleus](https://github.com/Bluebie/micronucleus) to upload .hex to Digispark
 
 ```micronucleus project.hex```
