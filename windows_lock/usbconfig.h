@@ -381,4 +381,14 @@ section at the end of this file).
 /* #define USB_INTR_PENDING_BIT    INTF0 */
 /* #define USB_INTR_VECTOR         INT0_vect */
 
+// setup interrupt for Pin Change for D+
+#define USB_INTR_CFG            PCMSK
+#define USB_INTR_CFG_SET        (1 << USB_CFG_DPLUS_BIT)
+#define USB_INTR_CFG_CLR        0
+#define USB_INTR_ENABLE         GIMSK
+#define USB_INTR_ENABLE_BIT     PCIE
+#define USB_INTR_PENDING        GIFR
+#define USB_INTR_PENDING_BIT    PCIF
+#define USB_INTR_VECTOR         PCINT0_vect
+
 #endif /* __usbconfig_h_included__ */
