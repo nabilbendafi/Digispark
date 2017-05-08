@@ -1,6 +1,6 @@
 // main.c
 // 
-// A simple blinky program for ATtiny85 (Digispark clone)
+// A simple desktop locker program for ATtiny85 (Digispark clone)
 // Led connected on PB1
 //
 
