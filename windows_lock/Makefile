@@ -1,5 +1,5 @@
 MCU = attiny85
-F_CPU = 12000000
+F_CPU = 16500000
 
 TARGET = windows_lock
 SIZE = avr-size
